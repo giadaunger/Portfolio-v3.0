@@ -1,0 +1,32 @@
+.references-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    'navbar navbar navbar'
+    'references references references'
+    'scrollUp scrollUp scrollUp'
+    'footer footer footer';
+}
+
+.main {
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+.navbar{
+    grid-area: navbar;
+}
+
+.references{
+    grid-area: references;
+}
+
+.scrollUp{
+    grid-area: scrollUp;
+}
+
+.footer{
+    grid-area: footer;
+}

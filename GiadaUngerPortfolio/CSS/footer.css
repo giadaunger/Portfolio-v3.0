@@ -1,0 +1,24 @@
+.footerList{
+    list-style: none;
+    float: right;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to bottom right, #e94be9, #628fe2);
+    border-image-slice: 1;    
+    padding: 10px;
+    color: white;
+}
+
+.footerLink{
+    padding: 2.5px;
+}
+
+.footerLink a:hover{
+    color: #dd92dd;
+    text-shadow: 2px 2px 8px #dd92dd;
+}
+
+.footer{
+    background-color: #202020;
+    margin-bottom: 0%;
+    padding: 20px;
+}

@@ -1,0 +1,47 @@
+.index-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    'navbar navbar navbar'
+    'one one one'
+    'two two two'
+    'three three three'
+    'scrollUp scrollUp scrollUp'
+    'footer footer footer';
+}
+
+.main {
+    padding: 20px;
+    overflow: hidden;
+    background-color: #262626;
+    margin-bottom: 70px;
+}
+
+.navbar{
+    grid-area: navbar;
+}
+
+.one{
+    grid-area: one;
+    display: grid;
+    grid-template-areas: 
+    'left right'
+    'left right';
+}
+
+.two{
+    grid-area: two;
+}
+
+.three{
+    grid-area: three;
+}
+
+.scrollUp{
+    grid-area: scrollUp;
+}
+
+.footer{
+    grid-area: footer;
+}

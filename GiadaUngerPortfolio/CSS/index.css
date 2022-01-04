@@ -1,0 +1,153 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #262626;
+}
+
+.right{
+    max-width: 50ch;
+    padding-left: 20px;
+}
+
+.mainPicture{
+    float: right;
+    width: 290px;
+    height: 400px;
+    border: 7px solid transparent;
+    border-image: linear-gradient(to bottom right, #e290e2, #729dee);
+    border-image-slice: 1;
+}
+
+h1{
+    color: white;
+    margin-bottom: 0%;
+}
+
+h2{
+    color: white;
+    margin-top: 0%;
+}
+
+p{
+    color: white;
+}
+
+.skill{
+    padding: 80px;
+    margin: 20px;
+    text-align: center;
+    font-size: 2.0em;
+    color: #262626;
+}
+
+.skills-h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.skills{
+    padding: 20px;
+    max-width: 100ch;
+}
+
+.resumeButton{
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    margin-top: 50px;
+    background-color: #dd92dd;
+    border: 2px solid #dd92dd;
+}
+
+.resumeButton:hover{
+    color: #dd92dd;
+    background-color: #262626;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+.skills{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+}
+
+.certificatesH1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.slideShow{
+    height: 600px;
+    width: 415px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideShowIMG img{
+    height: 100%;
+    width: 100%;
+}
+
+.bottomSliders{
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottomSliders span{
+    height: 15px;
+    width: 50px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.slide{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+    width: 45px;
+    height: 45px;
+}
+
+.slide, span{
+    font-size: 1.5em;
+    line-height: 60px;
+    color: #262626;
+}
+
+.slide:hover{
+    text-shadow: 2px 2px 7px black;
+}
+
+.buttonRight{
+    right: 0%;
+    padding: 0%;
+}
+
+.up{
+    float: right;
+    font-size: 2.5em;
+    padding-right: 50px;
+    color: white;
+    background-color: #262626;
+    border: none;
+}
+
+.up:hover{
+    color: #dd92dd;
+    text-shadow: 2px 2px 8px #dd92dd;
+}

@@ -1,0 +1,32 @@
+.index-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    'navbar navbar navbar'
+    'one one one'
+    'scrollUp scrollUp scrollUp'
+    'footer footer footer';
+}
+
+.main {
+    color: black;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.navbar{
+    grid-area: navbar;
+}
+
+.one{
+    grid-area: one;
+}
+
+.scrollUp{
+    grid-area: scrollUp;
+}
+
+.footer{
+    grid-area: footer;
+}

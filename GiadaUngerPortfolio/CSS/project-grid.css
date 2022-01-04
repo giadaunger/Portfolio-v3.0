@@ -1,0 +1,21 @@
+.project-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    'navbar navbar navbar'
+    'projects projects projects'
+    'footer footer footer';
+}
+
+.navbar{
+    grid-area: navbar;
+}
+
+.projects{
+    grid-area: projects;
+}
+
+.footer{
+    grid-area: footer;
+}

@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #262626;
+}
+
+h1, p{
+    color: white;
+    text-align: center;
+}
+
+.projectDescription, .projectPic{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectDescription{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    max-height: 50ch;
+    overflow: auto;
+    border: 5px solid transparent;
+            border-image: linear-gradient(to bottom right, #e290e2, #628fe2);
+            border-image-slice: 1;
+}
+
+h1{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.4em;
+    margin: 3px;
+    padding: 2rem;
+    background-color: #262626;
+}
+
+.projects{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    width: 50%;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 0.8em;
+    margin-top: 15px;
+    background-color: #dd92dd;
+    border: 2px solid #dd92dd;
+}
+
+button:hover{
+    color: #dd92dd;
+    background-color: #262626;
+}
+
+.fas{
+    padding: 10px;
+}
+
+.back{
+    padding: 30px;
+    float: right;
+    font-size: 2em;
+    color: #dd92dd;
+}
+
+.back:hover{
+    text-shadow: 2px 2px 8px #dd92dd;
+}
+
+.pLink{
+    text-decoration: underline #262626;
+    color: #dd92dd;
+}
+
+.pLink:hover{
+    text-decoration: underline #dd92dd;
+}

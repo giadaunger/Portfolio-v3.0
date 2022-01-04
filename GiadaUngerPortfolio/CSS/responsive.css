@@ -1,0 +1,44 @@
+@media only screen and (max-width: 760px) {
+    .navbarLink {
+      display: block;
+      padding: 3px;
+      font-size: 0.7em;
+    }
+
+    .navbarLink a:hover{
+        border: none;
+    }
+
+    .navbarList{
+        border-bottom: 2px black solid;
+    }
+
+    .mainPicture{
+        width: 250px;
+        height: 350px;
+    }
+  }
+ 
+  @media only screen and (max-width: 660px) {
+    .one{
+        grid-template-areas: 
+        'left'
+        'right';
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mainPicture{
+        float: none;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1, h2, p{
+        text-align: center;
+    }
+
+    .projects, .projectPicture{
+        max-width: 50ch;
+    }
+  } 
